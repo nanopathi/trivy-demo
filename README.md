@@ -84,7 +84,7 @@ trivy fs ./sycamore/
 
 Scan all of your infrastructure configuration for vulnerabilities:
 ```
-ls trivy-demo/bad_iac
+ls bad_iac
 ```
 
 Scan your Dockerfile for vulnerabilities and misconfigurations:
