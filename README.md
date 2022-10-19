@@ -89,17 +89,17 @@ ls bad_iac
 
 Scan your Dockerfile for vulnerabilities and misconfigurations:
 ```
-trivy config trivy-demo/bad_iac/docker/
+trivy config bad_iac/docker/
 ```
 
 Scan your Kubernetes manifests for vulnerabilities and misconfigurations:
 ```
-trivy config trivy-demo/bad_iac/kubernetes
+trivy config bad_iac/kubernetes
 ```
 
 Scan your Terraform for vulnerabilities and misconfigurations:
 ```
-trivy config trivy-demo/bad_iac/terraform
+trivy config bad_iac/terraform
 ```
 
 ### Custom Policies
