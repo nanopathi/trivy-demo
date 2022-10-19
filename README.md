@@ -52,6 +52,11 @@ Scan a container image for vulnerabilities:
 trivy i ubuntu:20.04
 ```
 
+By default Trivy will use the Docker Hub, however, you can also specify any other registry:
+```
+trivy i public.ecr.aws/docker/library/ubuntu:20.04
+```
+
 Scan a container image for vulnerabilities but ignore all vulnerabilities that do not have a fix available:
 ```
 trivy i --ignore-unfixed ubuntu:20.04
